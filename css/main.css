@@ -1,3 +1,4 @@
+/* Global */
 body {
   margin: 0;
   padding: 0;
@@ -6,6 +7,9 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
+  background-image: url('../assets/Cover.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 a {
@@ -13,6 +17,7 @@ a {
   display: inline;
   color: black;
 }
+/* /Global */
 
 /* Header */
 
@@ -55,6 +60,58 @@ header .icons span {
 
 /* Segunda sección */
 
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90px;
+}
+
+nav .nav-logo-container {
+  margin-left: 50px;
+}
+
+nav .nav-logo-container img {
+  width: 220px;
+  margin-top: 10px;
+}
+
+nav .profile-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+nav .profile-link a {
+  color: white;
+  border-bottom: 1px solid white;
+}
 /* /Segunda sección */
 
 /* / Header */
+
+/* Main */
+
+.section-main {
+  width: auto;
+  height: 100%;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.section-main p {
+  color: white;
+  font-size: 50px;
+  font-family: fantasy;
+}
+
+.section-main-button {
+  font-family: fantasy;
+  font-size: 20px;
+  background-color: #47cfac;
+  border: 0;
+  width: 100px;
+  height: 50px;
+}
+
+/* /Main */
