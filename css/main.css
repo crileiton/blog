@@ -23,6 +23,7 @@ header {
   grid-template-rows: 1fr 1fr;
 }
 
+/*  Primera sección */
 header .header-icons-container {
   width: 100%;
   height: 50px;
@@ -40,5 +41,20 @@ header .header-icons-container .icons {
   justify-self: end;
   margin-right: 50px;
 }
+
+header .icons span {
+  color: white;
+}
+
+.icono-github {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+/*  /Primera sección */
+
+/* Segunda sección */
+
+/* /Segunda sección */
 
 /* / Header */
