@@ -13,3 +13,37 @@ body {
 nav {
   background-color: #232323;
 }
+
+/* Blogs */
+
+.blogs-main {
+  display: grid;
+}
+
+.blogs-news-container {
+  background-color: #e6e9ed;
+  padding: 0 50px 40px;
+}
+
+.blogs-main-new {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr;
+}
+
+.blogs-news-container {
+  grid-column: 1;
+}
+
+.blogs-new-img-container img {
+}
+
+.blogs-news-info-container {
+  grid-column: 2;
+}
+
+.blogs-news-info-container p {
+  margin-bottom: 35px;
+}
+
+/* /Blogs */
