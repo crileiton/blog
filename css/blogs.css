@@ -2,16 +2,17 @@ body {
   font-family: 'Roboto Mono' monospace;
   margin: 0;
   padding: 0;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+
   background-image: none;
 }
 
 nav {
   background-color: #232323;
+}
+
+.home-body {
+  display: block;
+  position: relative;
 }
 
 /* Blogs */
@@ -31,11 +32,12 @@ nav {
   grid-template-rows: 2fr;
 }
 
-.blogs-news-container {
+.blogs-news-img-container {
   grid-column: 1;
 }
 
-.blogs-new-img-container img {
+.blogs-news-img-container img {
+  width: 85%;
 }
 
 .blogs-news-info-container {
@@ -46,4 +48,13 @@ nav {
   margin-bottom: 35px;
 }
 
+.blogs-posts-container {
+  padding: 0 50px 40px;
+}
+
+.blogs-posts-container h3 {
+  border-bottom: 1px solid #cdd2da;
+  padding-bottom: 20px;
+  text-align: center;
+}
 /* /Blogs */
