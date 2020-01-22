@@ -1,8 +1,10 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+
 body {
   font-family: 'Roboto Mono' monospace;
   margin: 0;
   padding: 0;
-
   background-image: none;
 }
 
@@ -11,8 +13,11 @@ nav {
 }
 
 .home-body {
+  font-family: 'Roboto Mono' monospace;
   display: block;
   position: relative;
+  margin: 0;
+  padding: 0;
 }
 
 /* Blogs */
@@ -56,5 +61,13 @@ nav {
   border-bottom: 1px solid #cdd2da;
   padding-bottom: 20px;
   text-align: center;
+  font-family: 'Roboto Mono' monospace;
+}
+
+.blogs-button {
+  border: 1px solid #47cfac;
+  padding: 10px 15px;
+  font-size: 12px;
+  font-family: 'Roboto Mono' monospace;
 }
 /* /Blogs */
