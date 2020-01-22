@@ -4,7 +4,7 @@ Blog estático y responsive para compartir intereses y experiencia profesional. 
 
 ### URL:
 
-[https://crileiton.me/blog](https://crileiton.me/blog)
+[https://crileiton.me/blog/](https://crileiton.me/blog/)
 
 ### Home:
 
